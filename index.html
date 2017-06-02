@@ -4,16 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Quote Generator</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="javascript.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  			crossorigin="anonymous"></script>
+  	<script src="https://use.fontawesome.com/2794be8d01.js"></script>
 </head>
 <body>
 	<h1>Random Quote Generator</h1>
-	<div id="quoteDisplay">
+	<div id="quoteDisplay">Use the buttons below to get new quotes and tweet them.
 		<!-- Quotes will display here -->
 	</div>
-	<button onclick="newQuote()">New Quote</button>
-
-	<div class"footer">by <a target="_blank" href="http://twitter.com/jromanrodriguez">Roman Rodriguez</a></div>
-
-	<script src="javascript.js"></script>
+	<div class="buttons">
+		<button class="button" id="quote" onclick="newQuote()">New Quote</button>
+    
+    	<a class="button" id="tweet" title="Tweet quote!" target="_blank">
+    	<i class="fa fa-twitter"></i>
+    	</a>
+	</div>
+	<div class="footer"> by <a target="_blank" href="http://twitter.com/jromanrodriguez">Roman Rodriguez</a>
+    </div>
+    
 </body>
 </html>

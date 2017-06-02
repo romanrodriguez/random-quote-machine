@@ -5,13 +5,60 @@ body {
   max-width: 50em;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   color: #566b78;
-}
-
-h1,
-strong {
-  color: #333;
+    background-color: azure;
 }
 
 a {
   color: #e81c4f;
+}
+
+h1, .footer {
+    padding: 30px 0px 0px 80px;
+}
+
+#quoteDisplay {
+    margin: 100px 80px 50px 80px;
+    background-color: lightcoral;
+    padding: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.buttons {
+    width:450px;
+    margin:auto;
+    display:block;
+    font-size: 16px;
+    text-align: center;
+}
+
+button #quote {
+    display: block;
+    float: left;
+    height: 38px;
+    border: none;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button #tweet {
+    display: block;
+    float: right;
+    height: 38px;
+    border: none;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    margin: 80px 140px 0px 140px;
+    text-align: center;
+    font-size: 14px;
 }

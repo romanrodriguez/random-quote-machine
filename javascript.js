@@ -23,3 +23,6 @@ function newQuote() {
 // a randomly retrieved quote as the value.
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
+
+// var tweetQuote = 'https://twitter.com/intent/tweet?text=' + $('#quote').text();
+// $("#tweet").attr("href", tweetQuote);
