@@ -9,7 +9,7 @@ var quotes = [
 'Humanity is acquiring all the right technology for all the wrong reasons. - <em>R. Buckminster Fuller</em>',
 'Technological progress has merely provided us with more efficient means for going backwards. - <em>Aldous Huxley</em>',
 'The human spirit must prevail over technology. - <em>Albert Einstein</em>'
-]
+];
 // Call Math.floor() function, which takes a parameter
 // and rounds the number downward to the nearest integer.
 // Pass in Math.random() as a parameter into Math.floor().
@@ -24,5 +24,12 @@ function newQuote() {
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
 
-// var tweetQuote = 'https://twitter.com/intent/tweet?text=' + $('#quote').text();
-// $("#tweet").attr("href", tweetQuote);
+// Twitter button event handler
+$('#tweet').click(function(){
+	var tweetQuote = $('#quoteDisplay').text();
+	window.open('https://twitter.com/intent/tweet?text=' + tweetQuote);
+
+	// if (tweetQuote != 'Use the buttons below to get new quotes and tweet them.') {
+	// 	window.open('https://twitter.com/intent/tweet?text=' + tweetQuote);
+	// }
+});
