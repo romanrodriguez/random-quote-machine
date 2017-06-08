@@ -1,64 +1,72 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
 body {
-  margin: 0 auto;
-  max-width: 50em;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  color: #566b78;
-    background-color: azure;
-}
-
-a {
-  color: #e81c4f;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #333;
+    background-color: #cccccc;
+    background-image: url(img/machine.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1, .footer {
-    padding: 30px 0px 0px 80px;
+    padding: 30px 0px 0px 0px;
+    font-style: Raleway;
+    text-align: center;
 }
 
 #quoteDisplay {
     margin: 100px 80px 50px 80px;
-    background-color: lightcoral;
+    background-color: lightblue;
     padding: 70px;
     border: none;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 500;
     font-style: oblique;
+    text-align: center;
 }
 
 .buttons {
-    width:450px;
-    margin:auto;
-    display:block;
-    font-size: 16px;
-    text-align: center;
+    width: 450px;
+    margin: auto;
+    display: block;
+
 }
 
-button #quote {
-    display: block;
-    float: left;
-    height: 38px;
+
+#quote {
+    background-color: #EE2007;
     border: none;
-    padding: 10px;
-    background-color: lightblue;
-    border-radius: 5px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    float: left;
+    font-size: 20px;  
 }
 
-button #tweet {
-    display: block;
+#tweet {
+    display: inline-block;
     float: right;
     height: 38px;
-    border: none;
     padding: 10px;
-    background-color: lightblue;
-    border-radius: 5px;
-    text-decoration: none;
+    text-align: center;
+    color: #00A3F0;
 }
 
 .footer {
-    margin: 80px 140px 0px 140px;
-    text-align: center;
-    font-size: 14px;
+    margin: 200px 0px 0px 0px;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #EE2007;
 }
