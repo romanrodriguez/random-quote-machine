@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
 
 body {
     margin: 0 auto;
@@ -13,34 +13,40 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: dotted 1px red;
 }
 
 h1 {
     font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
 }
 
 h1, .footer {
-    padding: 30px 0px 0px 0px;
-    font-style: Raleway;
+    padding: 10px 0px 0px 0px;
     text-align: center;
+    border: dotted 1px red;
 }
 
 #quoteDisplay {
-    margin: 120px 80px 50px 80px;
+    margin: 80px 15%;
     background-color: lightblue;
-    padding: 50px;
+    padding: 35px;
     border: none;
     border-radius: 8px;
+    font-family: 'Roboto Mono', monospace;
     font-size: 22px;
     font-weight: 500;
     font-style: oblique;
     text-align: center;
+    border: dotted 1px red;
 }
 
 .buttons {
-    width: 450px;
+    width: 300px;
     margin: auto;
     display: block;
+    border: dotted 1px red;
 
 }
 
@@ -48,11 +54,12 @@ h1, .footer {
     background-color: #EE2007;
     border: none;
     color: #fff;
-    padding: 15px 32px;
+    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     float: left;
-    font-size: 20px;  
+    font-size: 20px; 
+    border: dotted 1px red; 
 }
 
 #tweet {
@@ -61,11 +68,17 @@ h1, .footer {
     padding: 10px;
     text-align: center;
     color: #00A3F0;
+    border: dotted 1px red;
 }
 
 .footer {
-    margin: 280px 0px 0px 0px;
+    margin-top: 35%;
+    position: relative;
+    padding: 1rem;
+    background-color: #CCCCCC;
+    text-align: center;
     font-size: 16px;
+    color: #EE2007;
 }
 
 .footer a {
